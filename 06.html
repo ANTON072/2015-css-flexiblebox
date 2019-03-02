@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .column {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
+    }
+
+    .item {
+      padding: 10px;
+    }
+
+    .item:nth-child(1) {
+      background: orange;
+    }
+
+    .item:nth-child(2) {
+      background: skyblue;
+    }
+
+    .item:nth-child(3) {
+      background: blueviolet;
+    }
+
+    .item:nth-child(4) {
+      background: orange;
+    }
+
+    .item:nth-child(5) {
+      background: skyblue;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="column">
+    <div class="item">1列目1列目1列目1列目1列目1列目1列目1列目1列目1列目1列目1列目1列目1列目1列目1列目1列目1列目1列目1列目1列目1列目</div>
+    <div class="item">2列目</div>
+    <div class="item">3列目</div>
+    <div class="item">1列目2行目</div>
+    <div class="item">2列目2行目</div>
+  </div>
+</body>
+
+</html>

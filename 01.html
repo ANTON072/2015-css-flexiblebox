@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    vertical-align: top;
+  }
+  .block {
+    background-color: skyblue;
+    width: 300px;
+    padding: 10px 5px;
+    display: flex;
+  }
+  .block__icon {
+    margin: 0 5px;
+    border: 3px solid #fff;
+    /* flex: 0 0 auto; */
+    /* itemで設定する */
+    align-self: center;
+  }
+  .block__text {
+    margin: 0 5px;
+    font-size: 14px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 5px 10px;
+  }
+  </style>
+</head>
+<body>
+  <div class="block">
+    <div class="block__icon">
+      <img src="img2.png" alt="">
+    </div>
+    <div class="block__text">
+      The quick brown fox jumps over the lazy dog.
+      The quick brown fox jumps over the lazy dog.
+      The quick brown fox jumps over the lazy dog.
+    </div>
+  </div>
+</body>
+</html>
